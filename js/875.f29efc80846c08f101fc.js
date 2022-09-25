@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_mobile_app=self.webpackChunkreact_mobile_app||[]).push([[875],{875:function(e,i,t){t.r(i);t(294);var a=t(893);i.default=function(){return(0,a.jsx)("div",{children:"this is home"})}}}]);
