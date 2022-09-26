@@ -1,9 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import postcssImport from 'postcss-import'
-import postcssPresetEnv from 'postcss-preset-env'
 import * as path from 'path'
-
 const { resolve } = path
 
 const PORT = 8082
@@ -21,16 +18,14 @@ const PATHS = {
 	public: resolve(__dirname, './public')
 }
 
-// https://vitejs.dev/config/
+// docs: https://cn.vitejs.dev/guide/
 export default defineConfig({
 	plugins: [react()],
 	define: {
 		IS_DEV: false
 	},
 	css: {
-		postcss: {
-			plugins: [postcssImport, postcssPresetEnv]
-		}
+		postcss: resolve(__dirname, './postcss.config.js')
 	},
 	resolve: {
 		alias: {
