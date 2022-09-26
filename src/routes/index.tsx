@@ -33,5 +33,3 @@ export const renderRoutes: IRouteConfig[] = [
 		element: <NotFound />
 	}
 ]
-
-// export default RouteElement
