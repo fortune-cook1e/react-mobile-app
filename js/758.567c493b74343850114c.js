@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreact_mobile_app=self.webpackChunkreact_mobile_app||[]).push([[758],{758:function(e,i,r){r.r(i);r(294);var t=r(893);i.default=function(){return(0,t.jsx)("div",{children:"this is Preview"})}}}]);
