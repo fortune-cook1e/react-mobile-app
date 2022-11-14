@@ -1,9 +1,12 @@
 import React from 'react'
-import { render } from '@fe-cookie/render-engine'
-
 const Page = (): JSX.Element => {
-	render()
-	return <div>this is Preview</div>
+	return (
+		<div>
+			<h1>gagaga</h1>
+
+			<div />
+		</div>
+	)
 }
 
 export default Page
