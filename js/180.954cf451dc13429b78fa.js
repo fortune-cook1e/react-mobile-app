@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreact_mobile_app=self.webpackChunkreact_mobile_app||[]).push([[180],{180:function(e,n,t){t.r(n),t.d(n,{default:function(){return a}});var r=t(294);var a=function(){return console.log("dsa222ds"),r.createElement("div",null,"this is Preview")}}}]);

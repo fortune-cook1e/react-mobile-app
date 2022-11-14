@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_mobile_app=self.webpackChunkreact_mobile_app||[]).push([[758],{758:function(e,a,l){l.r(a);var t=l(294);a.default=function(){return t.createElement("div",null,t.createElement("h1",null,"gagaga"),t.createElement("div",null))}}}]);
