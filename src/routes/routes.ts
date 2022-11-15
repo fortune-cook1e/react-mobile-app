@@ -11,5 +11,10 @@ export const routes: IRouteConfig[] = [
 		path: '/visual-preview',
 		caseSensitive: true,
 		element: lazy(() => import('@/pages/visual-preview'))
+	},
+	{
+		path: '/design',
+		caseSensitive: true,
+		element: lazy(() => import('@/pages/design'))
 	}
 ]
